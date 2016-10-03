@@ -17,7 +17,7 @@ Java Dockerfiles based on srdc/ubuntu
 Execute either of the following:
 
     docker pull srdc/java:tag       [downloads the image from Docker Hub]
-    docker build -t srdc/java:tag   [builds from the local Dockerfile]
+    docker build -t srdc/java:tag .  [builds from the local Dockerfile]
 
 
 ### Usage
