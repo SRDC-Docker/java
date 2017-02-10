@@ -4,7 +4,7 @@ Java Dockerfiles based on srdc/ubuntu
 
 ### Base Docker Image
 
-* [srdc/ubuntu:14.04](https://hub.docker.com/r/srdc/ubuntu/)
+* [srdc/ubuntu:16.04](https://hub.docker.com/r/srdc/ubuntu/)
 
 
 ### Docker Tags

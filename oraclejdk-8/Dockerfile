@@ -1,4 +1,4 @@
-FROM srdc/ubuntu:14.04
+FROM srdc/ubuntu:16.04
 MAINTAINER SRDC Ltd. <technical@srdc.com.tr>
 
 #install Oracle JDK 8
