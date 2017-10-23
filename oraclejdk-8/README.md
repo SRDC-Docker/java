@@ -1,6 +1,6 @@
 ### Java Dockerfiles
 
-Java Dockerfiles based on srdc/ubuntu
+Java Dockerfiles based on srdc/ubuntu (additional Java Cryptography Extension (JCE))
 
 ### Base Docker Image
 

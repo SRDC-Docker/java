@@ -14,5 +14,12 @@ RUN \
 # Define commonly used JAVA_HOME variable
 ENV JAVA_HOME /usr/lib/jvm/java-8-oracle
 
+# Install Java Cryptography Extension (JCE) to be able to use SSL encryption
+RUN cd /tmp/ && \
+    curl -LO "http://download.oracle.com/otn-pub/java/jce/8/jce_policy-8.zip" -H 'Cookie: oraclelicense=accept-securebackup-cookie' && \
+    unzip jce_policy-8.zip && \
+    rm jce_policy-8.zip && \
+    yes |cp -v /tmp/UnlimitedJCEPolicyJDK8/*.jar /usr/lib/jvm/java-8-oracle/jre/lib/security/
+
 # Define default command.
 CMD ["bash"]
